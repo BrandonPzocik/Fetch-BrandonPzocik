@@ -19,7 +19,7 @@ const mostrarEmojis = async () => {
 
             const emojiImg = document.createElement('div');
             emojiImg.className = 'emoji-img';
-            emojiImg.innerHTML = emoji.htmlCode[0];  // Cambiado a innerHTML
+            emojiImg.innerHTML = emoji.htmlCode[0]; 
 
             const emojiDescription = document.createElement('p');
             emojiDescription.textContent = emoji.name;
